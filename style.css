@@ -1,0 +1,73 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Eczar&display=swap');
+
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Eczar', serif;
+  }
+
+  body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(
+    180deg,
+  hsl(298deg 100% 20%) 0%,
+  hsl(316deg 100% 27%) 24%,
+  hsl(326deg 100% 34%) 38%,
+  hsl(338deg 78% 45%) 49%,
+  hsl(353deg 79% 57%) 58%,
+  hsl(9deg 96% 62%) 66%,
+  hsl(22deg 100% 59%) 74%,
+  hsl(35deg 100% 55%) 82%,
+  hsl(46deg 100% 50%) 90%,
+  hsl(54deg 100% 50%) 100%
+);
+  }
+
+  .box{
+    max-width: 400px;
+    width: 100%;
+    
+  }
+
+  .searchbox{
+    position: relative;
+    height: 50px;
+    max-width: 380px;
+    margin-left: auto;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 2.2);
+    border-radius: 25px;
+    transition: all 0.3s ease;
+  }
+
+ 
+  .searchbox input{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    border-radius: 22px;
+    background: rgb(254, 254, 255);
+    outline: none;
+    border: none;
+    padding-left: 20px;
+    font-size: 18px;
+  }
+
+  .searchbox .icon{
+    position: absolute;
+    right: -5px;
+    top: 0;
+    width: 50px;
+    background: #44eca6;
+    height: 100%;
+    text-align: center;
+    line-height: 55px;
+    color: rgb(7, 7, 104);
+    font-size: 22px;
+    border-radius: 25px;
+  }
